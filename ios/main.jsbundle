@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Error: Unable to resolve module `./index.ios` from `/Users/huangbaojie/ReactNativeProjects/MyApp/.`: The module `./index.ios` could not be found from `/Users/huangbaojie/ReactNativeProjects/MyApp/.`. Indeed, none of these files exist:<br> &nbsp;* `/Users/huangbaojie/ReactNativeProjects/MyApp/index.ios(.native||.ios.js|.native.js|.js|.ios.json|.native.json|.json|.ios.ts|.native.ts|.ts|.ios.tsx|.native.tsx|.tsx)`<br> &nbsp;* `/Users/huangbaojie/ReactNativeProjects/MyApp/index.ios/index(.native||.ios.js|.native.js|.js|.ios.json|.native.json|.json|.ios.ts|.native.ts|.ts|.ios.tsx|.native.tsx|.tsx)`<br> &nbsp; &nbsp;at ModuleResolver.resolveDependency (/Users/huangbaojie/ReactNativeProjects/MyApp/node_modules/metro/src/node-haste/DependencyGraph/ModuleResolution.js:163:15)<br> &nbsp; &nbsp;at ResolutionRequest.resolveDependency (/Users/huangbaojie/ReactNativeProjects/MyApp/node_modules/metro/src/node-haste/DependencyGraph/ResolutionRequest.js:52:18)<br> &nbsp; &nbsp;at DependencyGraph.resolveDependency (/Users/huangbaojie/ReactNativeProjects/MyApp/node_modules/metro/src/node-haste/DependencyGraph.js:283:16)<br> &nbsp; &nbsp;at /Users/huangbaojie/ReactNativeProjects/MyApp/node_modules/metro/src/lib/transformHelpers.js:261:42<br> &nbsp; &nbsp;at Server.&lt;anonymous&gt; (/Users/huangbaojie/ReactNativeProjects/MyApp/node_modules/metro/src/Server.js:1038:41)<br> &nbsp; &nbsp;at Generator.next (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at asyncGeneratorStep (/Users/huangbaojie/ReactNativeProjects/MyApp/node_modules/metro/src/Server.js:99:24)<br> &nbsp; &nbsp;at _next (/Users/huangbaojie/ReactNativeProjects/MyApp/node_modules/metro/src/Server.js:119:9)</pre>
+</body>
+</html>

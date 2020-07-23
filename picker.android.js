@@ -12,7 +12,7 @@ import {
     TextInput,
     PermissionsAndroid
 } from 'react-native';
-import Geolocation from 'Geolocation';
+
 import Screen from "./src/utils/Screen";
 
 export default class picker extends Component {
@@ -58,11 +58,7 @@ export default class picker extends Component {
                 <Button
                     title={'获取位置'}
                     onPress={() => {
-                        navigator.geolocation.getCurrentPosition((data) => {
-                            Alert.alert('获取位置成功', JSON.stringify(data), null);
-                        }, () => {
-                            Alert.alert('获取位置失败', null, null);
-                        });
+                       
                     }}/>
                 <Text>{this.state.keyboardText}</Text>
                 <TextInput style={styles.textInput}/>
